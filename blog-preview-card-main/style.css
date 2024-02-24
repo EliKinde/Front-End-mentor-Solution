@@ -1,0 +1,48 @@
+body {
+  background-color: hsl(47, 88%, 63%);
+  height: 100%;
+}
+
+#center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+.container {
+  text-align: left;
+  border: 1px solid black;
+  box-shadow: 5px 0 5px 0;
+  width: 300px;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+img {
+  max-width: 100%;
+}
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+.get {
+  font-weight: 600;
+}
+
+.home {
+  color: grey;
+}
+
+@media (max-width: 375px) {
+  body{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
+}
