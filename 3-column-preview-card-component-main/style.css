@@ -1,0 +1,110 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: hsl(0, 0%, 95%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  margin: 5rem 1rem;
+}
+
+.item {
+  padding: 0 30px 0 30px;
+}
+
+img {
+  padding: 30px 0 10px 0;
+}
+
+.sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px  0  0;
+    padding: 2.5rem 2rem 3.5rem;
+}
+
+.suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2.5rem 2rem 3.5rem;
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2.5rem 2rem 3.5rem;
+    border-radius: 0 0 10px 10px;
+}
+
+
+h2 {
+    font-family: "Big Shoulders Display", sans-serif;
+    color: hsl(0, 0%, 95%);
+    font-size: 2.5rem;
+    padding: 10px 0 10px 0;
+}
+
+p {
+  color: hsl(0, 0%, 95%);
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  padding: 1.5rem 0 2.5rem;
+  line-height: 1.5rem;
+}
+
+a {
+  font-family: "Lexend Deca", sans-serif;
+  text-decoration: none;
+  background-color: hsl(0, 0%, 95%);
+  padding: 10px 10px;
+  border-radius: 10rem;
+}
+
+
+.sedans-q {
+  color: hsl(31, 77%, 52%)
+}
+
+.suv-q {
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury-q {
+  color: hsl(179, 100% 13%);
+}
+
+.link-q:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: solid;
+}
+
+@media (min-width: 618px) {
+  
+  #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+  }
+  
+  .sedans {
+    border-radius: 10px 0 0 10px;
+  }
+  .luxury {
+    border-radius: 0 10px 10px 0;
+  }
+
+}
+
